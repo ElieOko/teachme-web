@@ -1,0 +1,55 @@
+{
+  "name": "emyapp",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build",
+    "format": "oxfmt src/"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.2.0",
+    "@n8n/chat": "^0.58.0",
+    "@tailwindcss/cli": "^4.1.18",
+    "@tailwindcss/vite": "^4.1.13",
+    "@vue-hero-icons/outline": "^1.7.2",
+    "aos": "^2.3.4",
+    "axios": "^1.12.2",
+    "lodash": "^4.17.21",
+    "pinia": "^3.0.4",
+    "sass": "^1.70.0",
+    "sass-loader": "^16.0.4",
+    "swiper": "^12.0.2",
+    "tailwindcss": "^4.1.18",
+    "vite-plugin-vuetify": "^2.1.3",
+    "vue": "^3.5.27",
+    "vue-3d-loader": "^2.2.4",
+    "vue-router": "^5.0.1",
+    "vue-scrollto": "2.20.0",
+    "vue-tabler-icons": "2.21.0",
+    "vue-toast-notification": "^3.1.3",
+    "vue3-apexcharts": "1.5.2",
+    "vue3-carousel": "0.3.1",
+    "vue3-easy-data-table": "1.5.47",
+    "vue3-perfect-scrollbar": "^2.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "^24.0.4",
+    "@types/node": "^24.10.9",
+    "@vitejs/plugin-vue": "^6.0.3",
+    "@vue/tsconfig": "^0.8.1",
+    "npm-run-all2": "^8.0.4",
+    "oxfmt": "^0.27.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-vue-devtools": "^8.0.5",
+    "vue-tsc": "^3.2.4"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}
