@@ -48,7 +48,7 @@
             Téléphone
           </h3>
           <a 
-            href="tel:+243000000000"
+            href="tel:+243903500886"
             class="text-gray-600 group-hover:text-white/90 text-sm font-light transition-colors duration-500 hover:underline"
           >
             +243 903 500 886
