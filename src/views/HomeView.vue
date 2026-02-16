@@ -7,6 +7,7 @@ import Profile from '@/components/ui/home/Profile.vue';
 import Navbar from '@/components/Navbar.vue';
 import Contact from '@/components/ui/home/Contact.vue';
 import Footer from '@/components/Footer.vue';
+import Project from '@/components/ui/home/Project.vue';
 
 </script>
 
@@ -15,10 +16,12 @@ import Footer from '@/components/Footer.vue';
     <Navbar />
     <Landing />
     <section class="bg-[#f0f9ff]">
- <Profile />
+    <Profile />
     <Section/>
-     <Galerie />
+    <Project />
+    <Galerie />
     </section>
+   
     <Contact/>
     <Footer />
   </main>
