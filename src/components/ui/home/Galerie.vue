@@ -4,11 +4,19 @@ import lawacademy_01 from '../../../assets/images/academy2.jpeg'
 import lawacademy_02 from '../../../assets/images/academy.jpeg'
 import lawapp_01 from '../../../assets/images/app.jpeg'
 import lawapp_02 from '../../../assets/images/lawapp_price.jpeg'
+import lawapp_03 from '../../../assets/images/lawappteam.jpeg'
 import eloquentia_01 from '../../../assets/images/eloq.jpeg'
 import eloquentia_02 from '../../../assets/images/emy.jpeg'
 import impact1 from '../../../assets/images/impact1.jpeg'
 import impact2 from '../../../assets/images/impact2.jpeg'
+import academy1 from '../../../assets/images/academy1.jpeg'
+import academy2 from '../../../assets/images/academy2_.jpeg'
+import adis1 from '../../../assets/images/adis1.jpeg'
+import adis2 from '../../../assets/images/adis2.jpeg'
+import adis3 from '../../../assets/images/adis3.jpeg'
+import africa from '../../../assets/images/africa.jpeg'
 import conference from '../../../assets/images/conf.jpeg'
+import africa2 from '../../../assets/images/emy.jpeg'
 import { ref, onMounted, onUnmounted, computed } from 'vue'
 
 // Définition du breakpoint mobile (généralement 768px)
@@ -24,13 +32,21 @@ const isMobile = computed(() => windowWidth.value < MOBILE_BREAKPOINT)
 const galleryImages = [
   { src: lawacademy_01, alt: "LawAcademy - Atelier en école", category: "LawAcademy" },
   { src: lawacademy_02, alt: "LawAcademy - Simulation de procès", category: "LawAcademy" },
-  { src: lawapp_01, alt: "LawApp50 - Présentation application", category: "LawApp50" },
-  { src: lawapp_02, alt: "LawApp50 - 1er prix ", category: "LawApp50" },
+  { src: lawapp_03, alt: "LawApp50 - Présentation application", category: "LawApp50" },
+  { src: lawapp_02, alt: "LawApp50 - Makeathon féminin par Orange digital center", category: "LawApp50" },
+  { src: lawapp_01, alt: "LawApp50 - Team Makeathon féminin", category: "LawApp50" },
   { src: eloquentia_01, alt: "Éloquentia - Concours d'éloquence", category: "Éloquentia" },
   { src: eloquentia_02, alt: "Emy Mayumbi - Championne Éloquentia", category: "Éloquentia" },
+  { src: academy1, alt: "Acad’Emy ce n’est pas une école, un centre de formation classique c’est une académie d\’expériences formatives, un espace où on apprend autrement, un concept premium, humainet intelligent.", category: "Acad’Emy" },
+  { src: academy2, alt: "Acad’Emy - Partager le savoir, nourrir une vie.", category: "Acad’Emy" },
   { src: impact1, alt: "Clinique Juridique Mobile", category: "Impact Social" },
   { src: impact2, alt: "Dictionnaire Juridique Visuel", category: "Impact Social" },
-  { src: conference, alt: "Conférence - Droit et Numérique", category: "Leadership" }
+  { src: conference, alt: "Conférence - Droit et Numérique", category: "Leadership" },
+  { src: adis1, alt: "Adis 2025 - Gagnant avec le projet Mokanda actuellement Barua", category: "Adis 2025" },
+  { src: adis2, alt: "Adis 2025 - Remise de prix dans l'ADN", category: "Adis 2025" },
+  { src: adis3, alt: "Adis 2025 - Conférence", category: "Adis 2025" },
+  { src: africa, alt: "Africa Tech Invest - Gagnante", category: "Africa Tech Invest" },
+  { src: africa2, alt: "Africa Tech Invest - Droit et Numérique", category: "Africa Tech Invest" },
 ]
 
 // État pour la lightbox
@@ -49,7 +65,7 @@ const closeLightbox = () => {
 }
 
 const activeCategory = ref('Tous')
-const categories = ['Tous', 'LawAcademy', 'LawApp50', 'Éloquentia', 'Impact Social', 'Leadership']
+const categories = ['Tous', 'LawAcademy', 'LawApp50', 'Éloquentia', 'Impact Social', 'Leadership', "Acad’Emy", "Adis 2025", "Africa Tech Invest"]
 if (isMobile.value) {
     activeCategory.value = 'Leadership' // Affiche toutes les images sur mobile
 }

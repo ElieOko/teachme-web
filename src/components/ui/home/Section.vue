@@ -149,7 +149,7 @@ const filteredImages = computed(() => {
       <p class="mt-4 text-gray-300 text-base md:text-lg leading-relaxed font-light">
         Application mobile juridique, codes juridiques, modèles de contrats et assistance.
       </p>
-
+<!-- 
       <ul class="mt-8 space-y-3 text-sm text-gray-300">
         <li class="flex items-center">
           <span class="w-1.5 h-1.5 bg-gray-300 rounded-full mr-3"></span>
@@ -160,13 +160,11 @@ const filteredImages = computed(() => {
           <span>Codes juridiques congolais actualisés</span>
         </li>
        
-      </ul>
+      </ul> -->
 
       
     </div>
   </article>
-
-
 
 </div>
 
