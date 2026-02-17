@@ -1,4 +1,4 @@
-import{d as n,o as l,c as a,b as t,t as o,F as d,r as c}from"./index-jSv8Aanu.js";const x={class:"py-20 bg-gradient-to-br from-gray-50 to-white"},m={class:"max-w-4xl mx-auto px-6 lg:px-8 text-center"},u={class:"text-3xl md:text-4xl font-light text-gray-900 mb-6"},g={class:"text-lg text-gray-600 font-light mb-10 max-w-2xl mx-auto"},p=["href"],D=n({__name:"ProjectCTA",props:{titre:{},description:{},buttonText:{},email:{default:"contact@emyyimpi.com"},emailSubject:{default:"Prise de contact - Site web"},emailBody:{default:`Bonjour,
+import{d as n,o as l,c as a,b as t,t as o,F as d,r as c}from"./index-DWUe4h17.js";const x={class:"py-20 bg-gradient-to-br from-gray-50 to-white"},m={class:"max-w-4xl mx-auto px-6 lg:px-8 text-center"},u={class:"text-3xl md:text-4xl font-light text-gray-900 mb-6"},g={class:"text-lg text-gray-600 font-light mb-10 max-w-2xl mx-auto"},p=["href"],D=n({__name:"ProjectCTA",props:{titre:{},description:{},buttonText:{},email:{default:"contact@emyyimpi.com"},emailSubject:{default:"Prise de contact - Site web"},emailBody:{default:`Bonjour,
 
 Je vous contacte suite à ma visite sur votre site web.
 

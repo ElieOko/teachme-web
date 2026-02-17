@@ -32,7 +32,7 @@ const isMobile = computed(() => windowWidth.value < MOBILE_BREAKPOINT)
 const galleryImages = [
   { src: lawacademy_01, alt: "LawAcademy - Atelier en école", category: "LawAcademy" },
   { src: lawacademy_02, alt: "LawAcademy - Simulation de procès", category: "LawAcademy" },
-  { src: lawapp_03, alt: "LawApp50 - Présentation application", category: "LawApp50" },
+  // { src: lawapp_03, alt: "LawApp50 - Présentation application", category: "LawApp50" },
   { src: lawapp_02, alt: "LawApp50 - Makeathon féminin par Orange digital center", category: "LawApp50" },
   { src: lawapp_01, alt: "LawApp50 - Team Makeathon féminin", category: "LawApp50" },
   { src: eloquentia_01, alt: "Éloquentia - Concours d'éloquence", category: "Éloquentia" },
