@@ -51,12 +51,12 @@
           
           <!-- Lien discret -->
           <div class="pt-6 border-t border-gray-100 mt-auto">
-            <RouterLink to="/project/academy" class="inline-flex items-center text-sm text-[#2F4F4F] hover:text-[#40b3b3] transition-colors group/link">
+            <a href="/project/academy" class="inline-flex items-center text-sm text-[#2F4F4F] hover:text-[#40b3b3] transition-colors group/link">
               <span>Découvrir le concept</span>
               <svg class="w-3.5 h-3.5 ml-2 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
               </svg>
-            </RouterLink>
+            </a>
           </div>
         </div>
       </article>
@@ -97,12 +97,12 @@
           <!-- Lien discret -->
            
           <div class="pt-6 border-t border-gray-100 mt-auto">
-            <RouterLink to="/project/barua" class="inline-flex items-center text-sm text-[#2F4F4F] hover:text-[#40b3b3] transition-colors group/link">
+            <a href="/project/barua" class="inline-flex items-center text-sm text-[#2F4F4F] hover:text-[#40b3b3] transition-colors group/link">
               <span>Explorer la solution</span>
               <svg class="w-3.5 h-3.5 ml-2 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
               </svg>
-            </RouterLink>
+            </a>
           </div>
         </div>
       </article>
